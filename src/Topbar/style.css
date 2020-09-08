@@ -1,0 +1,50 @@
+#topbar {
+    height: 50px;
+    line-height: 50px;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-image-source: linear-gradient(to right, white 0%, darkslategray 30%, darkslategray 70%, white 100%); 
+    border-image-slice: 5;
+}
+
+.topbar_item {
+    color: slategray;
+    display: inline-block;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.topbar_item > a {
+    color: slategray;
+    text-decoration: none;
+}
+
+.topbar_item > a:hover {
+    color: darkslategray;
+}
+
+.menu_link,
+.topbar_dropdown > img {
+    cursor: pointer;
+}
+
+.menu_link:hover {
+    color: darkslategray;
+}
+
+.topbar_dropdown_menu {
+    position: absolute;
+    margin-left: -10px;
+    min-width: 150px;
+    box-shadow: 0 0 5px lightgray;
+}
+
+.topbar_dropdown_menu > span {
+    display: block;
+    padding: 0 10px;
+}
+
+.topbar_dropdown_menu > span:hover {
+    background-color: gray;
+    color: white;
+}

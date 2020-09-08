@@ -1,0 +1,66 @@
+[
+    {
+        "htmlId": "logo",
+        "content": {
+            "type": "logo",
+            "altText": "Logo",
+            "icon": ""
+        },
+        "anchor": true,
+        "to": "/"
+    },
+    {
+        "htmlId": "home",
+        "content": {
+            "type": "link",
+            "text": "Home",
+            "icon": "",
+            "to": "/"
+        },
+        "class": "link"
+    },
+    {
+        "htmlId": "about",
+        "content": {
+            "type": "link",
+            "text": "About",
+            "icon": "",
+            "to": "/about"
+        },
+        "class": "link"
+    },
+    {
+        "htmlId": "help",
+        "content": {
+            "type": "link",
+            "text": "Help",
+            "icon": "",
+            "to": "/help"
+        },
+        "class": "link",
+        "floatRight": true
+    },
+    {
+        "htmlId": "menu",
+        "content": {
+            "type": "dropdown",
+            "text": "Menu",
+            "items": [
+                "Item One",
+                "Item Two"
+            ]
+        }
+    },
+    {
+        "htmlId": "menu2",
+        "content": {
+            "type": "dropdown",
+            "text": "Menu 2",
+            "items": [
+                "Item One",
+                "Item Two"
+            ]
+        },
+        "floatRight": true
+    }
+]
